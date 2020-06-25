@@ -1,0 +1,16 @@
+best resource: link: https://www.youtube.com/watch?v=eRkqvQtm4DU&list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG
+contents included:
+primality tests O(sqrt(N)) time complexity
+sieve of eratosthenes
+sieve of factorisation
+prime factorisation in sqrt(N) time
+binary exponentiation
+matrix exponentiation
+calculating nth element of a recurrance relation
+euclid's algorithm
+modular arithmetic 
+modulo multiplicative inverse
+binomial coeffecients and factorials in O(n) time
+Euler's tolient function
+segmented sieve
+number of divisors
