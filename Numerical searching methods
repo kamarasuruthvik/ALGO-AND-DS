@@ -1,0 +1,32 @@
+1.Binary search:
+  int bsearch(vi& nums,int x)
+  {
+  int lo=0;
+  int hi=nums.size()-1;
+  while(lo<=hi){
+  int mid=lo+(hi-lo)/2; // to avoid overflow
+  if(nums[mid]==x) return mid;
+  else if(nums[mid]<x) lo=mid+1;
+  else hi=mid+1;
+  }
+  return -1;//element not found
+  }
+  
+  
+ 2.Ternary search:
+ 
+ double ternary_search(double l, double r) {
+    double eps = 1e-9;              //set the error limit here
+    while (r - l > eps) {
+        double m1 = l + (r - l) / 3;
+        double m2 = r - (r - l) / 3;
+        double f1 = f(m1);      //evaluates the function at m1
+        double f2 = f(m2);      //evaluates the function at m2
+        if (f1 < f2)
+            l = m1;
+        else
+            r = m2;
+    }
+    return f(l);                    //return the maximum of f(x) in [l, r]
+}
+
